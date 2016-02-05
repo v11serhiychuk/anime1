@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+@font-face{
+	font-family: "Helvetica";
+}
+p{
+	font-family: "Helvetica";
+}
+.bg {
+	width: 100%;
+    background: #878787;
+}
+
+.demo,
+#baner{
+	width:1060px;
+	margin: auto;
+	position: relative;
+    height: 180px;
+    overflow: hidden;
+}
+#baner img[name="tree"]{
+	display: inline-block;
+	-webkit-filter: grayscale(100%);
+}
+ #close {
+	position: absolute;
+	
+	top: 4px;
+    right: 4px;
+}
+#slide0 {
+	width:1060px;
+	top: 0px;
+}
+#slide0>img{
+	display: inline-block;
+}
+.float_l {
+	float: left;
+}
+.float_r {
+	float: right;
+}
+.block1,
+.block2,
+.block3,
+.block4,
+.topSlide,
+
+#slide0 {
+	position: absolute;
+}
+#slide0>img {
+	opacity: 0;
+}
+
+.block1 {
+    top: 26px;
+    left: 310px;
+    color: #fff;
+}
+.block1 pre{
+    color: #fff;
+    font-size: 61px;
+	opacity: 0;
+}
+.block2{
+	top: 182px;
+    left: 0;
+}
+.block2 img{
+	width: 579px;
+}
+.topSlide {
+	top:-182px;
+	width:1060px;
+}
+.block3{
+	width:600px;
+	top:0;
+	right: 0px;
+
+    color: #fff;
+    font-size: 22px;
+    height: 180px;
+    background: rgba(231,231,231,0.85);
+}
+.block3 img[name="logo"]{
+    position: absolute;
+    width: 340px;
+    bottom: 15px;
+    left: 18px;
+}
+.block3 img[name="button"]{
+	position: absolute;
+    bottom: 16px;
+    right: 30px;
+    width: 200px;
+}
+
+.block3 p{
+	color: #0f2e43;
+}
+.block3 p[name="first"]  {  
+    margin: 16px 0 0 90px;
+    width: 100%;
+    font-size: 29px;
+}
+.block3>p{ 
+	margin: 12px 0 0 12px;
+    width: 100%;
+    font-size: 29px;
+}
+.block4{
+	bottom: -45px;
+    left: 0px;
+    width: 240px;
+}
+.block4 img{
+	width: 191px;
+    margin: auto;
+    display: block;
+}
+
+
+
+
